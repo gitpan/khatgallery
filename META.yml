@@ -1,6 +1,6 @@
 ---
 name: khatgallery
-version: 0.02
+version: 0.03
 author:
   - Kathryn Andersen
 abstract: HTML photo album generator.
@@ -24,10 +24,10 @@ build_requires:
 provides:
   HTML::KhatGallery:
     file: lib/HTML/KhatGallery.pm
-    version: 0.02
+    version: 0.03
   HTML::KhatGallery::Core:
     file: lib/HTML/KhatGallery/Core.pm
-    version: 0.02
+    version: 0.03
 generated_by: Module::Build version 0.28
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

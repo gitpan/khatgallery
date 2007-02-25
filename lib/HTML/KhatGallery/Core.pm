@@ -8,11 +8,11 @@ HTML::KhatGallery::Core - the core methods for HTML::KhatGallery
 
 =head1 VERSION
 
-This describes version B<0.02> of HTML::KhatGallery::Core.
+This describes version B<0.03> of HTML::KhatGallery::Core.
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 SYNOPSIS
 
@@ -48,7 +48,7 @@ use Image::Info qw(image_info dim);
 
 =head2 run
 
-Posy->run(%args);
+HTML::KhatGallery->run(%args);
 
 C<run> is the only method you should need to use from outside
 this module; other methods are called internally by this one.
@@ -827,7 +827,7 @@ sub make_thumbnail {
     my $newx = int($x / (sqrt($x * $y) / sqrt($self->{pixelcount})));
     my $newy = int($y / (sqrt($x * $y) / sqrt($self->{pixelcount})));
     my $newpix = $newx * $newy;
-    my $command = "convert -geometry \"${newx}x${newy}\>\" $img_state->{abs_img} $thumb_file";
+    my $command = "convert -geometry \"${newx}x${newy}\>\" \"$img_state->{abs_img}\" \"$thumb_file\"";
     system($command);
     
 } # make_thumbnail

@@ -10,11 +10,11 @@ khatgallery - generate a HTML photo-gallery.
 
 =head1 VERSION
 
-This describes version B<0.02> of khatgallery.
+This describes version B<0.03> of khatgallery.
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 SYNOPSIS
 

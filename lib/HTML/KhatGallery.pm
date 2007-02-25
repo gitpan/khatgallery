@@ -8,11 +8,11 @@ HTML::KhatGallery - HTML photo album generator.
 
 =head1 VERSION
 
-This describes version B<0.02> of HTML::KhatGallery.
+This describes version B<0.03> of HTML::KhatGallery.
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 SYNOPSIS
 

@@ -1,6 +1,15 @@
 Revision history for khatgallery
 ================================
 
+0.03 Sun 25 February 2007
+-------------------------
+
+  * (25 Feb 2007) names with spaces
+  	- fixing bugs with thumbnail creation where directory names have
+  spaces in them, thanks to a patch from Chris Benson.
+
+  * (17 Sep 2006) typo fix
+
 0.02 Sun 17 September 2006
 --------------------------
 
